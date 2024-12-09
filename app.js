@@ -13,6 +13,9 @@ app.get('./students',(req,res)=>{
         {name:'Wael',age:18}];
     res.send(data)
 })
+app.get('./sleyman',(req,res)=>{
+    res.send("Bla Bla Bla")
+})
 app.listen(PORT, () => {
   console.log(`server started on port ${PORT}`);
 });
